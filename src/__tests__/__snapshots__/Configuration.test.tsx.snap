@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Configuration > renders correctly 1`] = `
+<div>
+  <h3>
+    Configuration
+  </h3>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Key
+        </th>
+        <th>
+          Value
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          key1
+        </td>
+        <td>
+          value1
+        </td>
+      </tr>
+      <tr>
+        <td>
+          key2
+        </td>
+        <td>
+          value2
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

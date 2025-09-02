@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Extensions > renders correctly 1`] = `
+<div
+  class="extension-root overflow-x-hidden"
+>
+  <div
+    aria-label="Extensions"
+    class="flex-column nav nav-pills"
+  >
+    <a
+      class="nav-link"
+      href="#"
+      role="button"
+      tabindex="0"
+    >
+      ext1
+    </a>
+    <a
+      class="nav-link"
+      href="#"
+      role="button"
+      tabindex="0"
+    >
+      ext2
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,31 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  height: 100%;
+}
+
+.extension-root {
+  display: flex;
+  flex-direction: column;
+  max-height: max-content;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.stack {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.tab-panel {
+  flex: 1;
+  overflow-y: auto;
+}

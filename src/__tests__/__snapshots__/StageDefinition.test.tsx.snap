@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StageDefinition > renders correctly 1`] = `
+<div>
+  <h3>
+    Stage Definitions
+  </h3>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Key
+        </th>
+        <th>
+          Value
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          stage1
+        </td>
+        <td>
+          step1, step2
+        </td>
+      </tr>
+      <tr>
+        <td>
+          stage2
+        </td>
+        <td>
+          step3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

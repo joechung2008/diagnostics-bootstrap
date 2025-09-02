@@ -1,0 +1,68 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ServerInfo > renders correctly 1`] = `
+<table
+  class="table"
+>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Value
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Hostname
+      </td>
+      <td>
+        localhost
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Uptime
+      </td>
+      <td>
+        123456
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Server ID
+      </td>
+      <td>
+        srv-456
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Deployment ID
+      </td>
+      <td>
+        dep-123
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Node Versions
+      </td>
+      <td>
+        v18.0.0
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Extension Sync | Total Sync All Count
+      </td>
+      <td>
+        5
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
