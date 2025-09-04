@@ -17,8 +17,8 @@ const Configuration: React.FC<ConfigurationProps> = ({ config }) => {
           </tr>
         </thead>
         <tbody>
-          {items.map((item, idx) => (
-            <tr key={idx}>
+          {items.map((item) => (
+            <tr key={item.key}>
               <td>{item.key}</td>
               <td>{item.value}</td>
             </tr>

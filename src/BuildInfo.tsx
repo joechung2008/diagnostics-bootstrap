@@ -17,8 +17,8 @@ const BuildInfo: React.FC<BuildInfoProps> = ({ buildVersion }) => {
         </tr>
       </thead>
       <tbody>
-        {items.map((item, idx) => (
-          <tr key={idx}>
+        {items.map((item) => (
+          <tr key={item.name}>
             <td>{item.name}</td>
             <td>{item.value}</td>
           </tr>

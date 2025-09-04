@@ -18,8 +18,8 @@ const StageDefinition: React.FC<StageDefinitionProps> = ({
           </tr>
         </thead>
         <tbody>
-          {items.map((item, idx) => (
-            <tr key={idx}>
+          {items.map((item) => (
+            <tr key={item.key}>
               <td>{item.key}</td>
               <td>{item.value.join(", ")}</td>
             </tr>

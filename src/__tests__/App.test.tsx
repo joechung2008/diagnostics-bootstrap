@@ -29,8 +29,9 @@ vi.mock("../Extensions", () => ({
         if (ext && typeof ext === "object" && "extensionName" in ext) {
           return (
             <button
-              key={key}
               data-testid={`extension-link-${key}`}
+              key={key}
+              type="button"
               onClick={(e) => onLinkClick(e, { key, name: ext.extensionName })}
             >
               {key}
