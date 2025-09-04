@@ -11,7 +11,7 @@ import tseslint from "typescript-eslint";
 export default [
   globalIgnores(["coverage", "dist"]),
   ...tseslint.configs.recommended,
-  reactPlugin.configs.recommended,
+  reactPlugin.configs["recommended-typescript"],
   reactDomPlugin.configs.recommended,
   reactHooks.configs["recommended-latest"],
   reactRefresh.configs.vite,
